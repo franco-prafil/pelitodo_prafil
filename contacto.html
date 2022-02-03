@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <title>Pelitodo</title>
+</head>
+<body>
+    <!--TITULO-->
+    <header class="headerStyle">
+        <h1 class="h1Titulo"> <a href="index.html">PELITODO</a></h1>
+        
+        <!--NAV-->
+        <nav>
+            <ul class="menuFlex">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="estrenos.html">Estrenos</a></li>
+                <li><a href="generos.html">Géneros</a></li>
+                <li><a href="peliculas.html">Películas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--SECCION CONTACTO-->
+    <main>
+        <section class="contenedorContacto">
+            <div class="contactoDiv">
+                <h2 class="h2Titulos">CONTACTO</h2>
+                    <article>
+                        <form>
+                        <legend class="legendInfo">INFORMACIÓN PERSONAL</legend>
+                        <br>
+                        <label for="nombre">Nombre</label>
+                        <input class="claseInput" type="text" name="nombre" placeholder="Nombre">
+                        <br>
+                        <label for="nombre">Apellido</label>
+                        <input class="claseInput" type="text" name="apellido" placeholder="Apellido">
+                        <br>
+                        <label for="email">Correo</label>
+                        <input class="claseInput" type="email" name="correo" placeholder="Correo">
+                        <br>
+                        <br>
+                        <select name="Consultas">
+                            <option value="Consulta">Consulta</option>
+                            <option value="Problemas con una Pelicula">Problemas con una Película</option>
+                            <option value="Pedido de Pelicula Nueva">Pedido de Película Nueva</option>
+                            <option value="Otros">Otros</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="comentarios">Comentarios</label>
+                        <br>
+                        <textarea name="comentatios" cols="30" rows="10" placeholder="Comentarios"></textarea>
+                        <br>
+                        <br>
+                        <span>Deseo recibir novedades sobre PELITODO</span>
+                        <input type="checkbox" name="acepta" value="1">
+                        <br>
+                        <br>
+                        <div class="divBotonClase">
+                        <input class="botonClaseInput" type="reset" value="Borrar Todo">
+                        <input class="botonClaseInput" type="submit" value="Enviar">
+                        </div>
+                        </form>
+                    </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- COMIENZO FOOTER -->
+    <footer>
+        <div class="footerDiv">
+            <!--LOGO + TITULO-->
+            <h3 class="h3TituloFooter">Pelitodo</h3>
+            
+            <!--MENU + REDES-->
+                <ul class="menuFooter">
+                    <li class="liFooter"><a href="inicio.html" target="blank">Inicio</a></li>
+                    <li class="liFooter"><a href="estrenos.html" target="blank">Estrenos</a></li>
+                    <li class="liFooter"><a href="generos.html" target="blank">Generos</a></li>
+                    <li class="liFooter"><a href="peliculas.html" target="blank">Peliculas</a></li>
+                    <li class="liFooter"><a href="contacto.html" target="blank">Contacto</a></li>
+                </ul>
+        </div>
+        <div>
+                <ul class="centradoFooter"> 
+                    <li><a href="https://www.facebook.com/" target="blank">Facebook</a></li>
+                    <li><a href="https://www.twitter.com/">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/" target="blank">Instagram</a></li>
+                </ul>
+        </div>
+        <p class="pFooter">© 2022 Pelistodo Peliculas Online, Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
