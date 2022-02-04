@@ -588,6 +588,14 @@ footer{
         align-items: center;
     }
 
+    .menuAnimado:hover {
+        display: inline-block;
+        /* margin:  0.1em; */
+
+        animation: bounce;
+        animation-duration: 1s;
+    }
+
     .contenedorImgPrin{
         width: 100%;
         height: 100%;
@@ -621,6 +629,14 @@ footer{
     }
     .contenedorImgSecciones{
         padding: 10px 0px 30px 50px;
+    }
+
+    .imgAnimada:hover {
+        display: inline-block;
+        margin: 0 0.2rem;
+
+        animation: headShake;
+        animation-duration: 1s;
     }
     /* FIN DE IMAGENES SECCIONES */
     
